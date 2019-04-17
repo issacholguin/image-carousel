@@ -1,2 +1,3 @@
-# image-carousel
-Simple React-Based Image Carosuel
+## image-carousel
+
+To be completed.

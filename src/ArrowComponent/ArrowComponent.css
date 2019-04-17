@@ -1,0 +1,25 @@
+.arrow {
+    text-align: center;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    display: inline;
+	cursor: pointer;
+	font-size: 3rem;
+    position: absolute;
+}
+
+.arrow.right {
+    left: 70%;
+}
+
+.arrow.left {
+    right: 70%;
+}
+
+.grow:hover {
+    color: blueviolet;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: all .1s ease-in-out;
+}
